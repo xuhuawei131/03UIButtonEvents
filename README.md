@@ -1,7 +1,7 @@
 # 03UIButtonEvents
  //创建圆角按钮<br>
-    UIButton* btn=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    
+ 
+    UIButton* btn=[UIButton buttonWithType:UIButtonTypeRoundedRect]
     btn.frame=CGRectMake(100, 100, 80, 40);
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
     //p1 谁来实现 事件函数，实现者对象 就是 谁
